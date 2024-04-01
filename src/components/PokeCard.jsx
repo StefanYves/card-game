@@ -26,6 +26,10 @@ function PokeCard({ pokemonData, setPokemonData }) {
         <h1 className="text-3xl font-bold text-gray-500">
           Highcore: {bestScore}
         </h1>
+        <p className="text-gray-500 font-bold mt-2">
+          Get points by clicking on an image but don&apos;t click on any more
+          than once!
+        </p>
         <div className="flex flex-wrap items-center">
           {pokemonData.map((data, index) => (
             <div
